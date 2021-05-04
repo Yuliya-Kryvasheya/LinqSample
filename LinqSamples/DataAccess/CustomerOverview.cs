@@ -4,7 +4,7 @@ namespace AnalyticsAdapter
     {
         public string Name { get; set; }
 
-        public int TotalProductsPurchased { get; set; }
+        public Product[] TotalProductsPurchased { get; set; }
 
         // return product name maximum number of purchases for a single product
         public string FavoriteProductName { get; set; }
